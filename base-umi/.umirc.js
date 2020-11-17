@@ -40,7 +40,8 @@ export default {
         apps:[
           {
             name:'app1',
-            entry:'/app1',
+            // entry:'/app1',
+            entry:'http://localhost:8001/app1',
             base:'/base/app1',
             path:'/base/app1',
 						key: 'app1',
@@ -48,7 +49,8 @@ export default {
           },
           {
             name:'app2',
-            entry:'/app2',
+            // entry:'/app2',
+            entry:'http://localhost:8002/app2',
             base:'/base/app2',
             path:'/base/app2',
 						key: 'app2',
