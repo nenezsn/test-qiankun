@@ -5,7 +5,7 @@ export default {
   base:'/base/app1',
   publicPath:'/app1/',
   outputPath:'../dist/app1',
-	mountElementId: 'app1-root',
+	// mountElementId: 'app1-root',
   routes: [
     {
       path: '/',
