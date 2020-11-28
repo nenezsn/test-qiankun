@@ -2,7 +2,7 @@
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
-  base:'/base/app1',
+  base:'/base/app1', // /主应用/子应用
   publicPath:'/app1/',
   outputPath:'../dist/app1',
 	// mountElementId: 'app1-root',
