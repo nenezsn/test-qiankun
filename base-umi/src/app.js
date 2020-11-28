@@ -7,6 +7,10 @@ export const dva = {
   },
 };
 
+function log(message){
+  console.log('receive child message',message)
+}
+
 export const qiankun = Promise.resolve({
   lifeCycles: {
     beforeLoad: props => {
@@ -34,7 +38,8 @@ export const qiankun = Promise.resolve({
       base:'/base/app1',//子应用路由前缀，通常跟子应用的 base 配置 一致，框架会以这个配置作为前缀判断是否激活当前应用，支持配置一组前缀
       mountElementId: 'child-app',//在base应用，预留的子应用插槽
       props:{
-        params:'test-qiankun'
+        params:'test-qiankun',
+        log
       }
     },
     {
