@@ -12,8 +12,6 @@ export default {
       component: '../layouts/index',
       routes: [
         { path: '/', component: '../pages/index' },
-        { path: '/app1' },
-        { path: '/app2' }
       ]
     }
   ],

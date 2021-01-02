@@ -16,7 +16,6 @@ export const qiankun = {
 	// 应用 render 之前触发
 	async mount(props) {
     console.log('appA mount', props);
-    props.log('appA mount')
 	},
 	// 应用卸载之后触发
 	async unmount(props) {
